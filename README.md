@@ -39,7 +39,7 @@ For the purpose of this exercice 3 tech stacks choices have been made:
 Example endpoints below:
 
 ```bash
-[GET]: http://localhost:3000/bookings/&limit=2&page=1
+[GET]: http://localhost:3000/bookings?limit=2&page=1
 ```
 
 ```bash
