@@ -1,0 +1,15 @@
+{
+    "collection": "@nestjs/schematics",
+    "sourceRoot": "src",
+    "projects": {
+        "main": {
+            "type": "application",
+            "root": "src",
+            "entryFile": "app"
+        }
+    },
+    "compilerOptions": {
+        "builder": "swc",
+        "typeCheck": true
+    }
+}
