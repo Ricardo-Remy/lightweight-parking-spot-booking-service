@@ -33,6 +33,8 @@ export class ParkingSpotService {
                 });
                 const entity = await this._repository.save(newParkingSpot);
                 parkingSpots.push(entity);
+
+                this._logger.log(`Created parking spot with ID: ${entity.id}, Place Number: ${entity.place_number}`);
             }
 
             return parkingSpots;

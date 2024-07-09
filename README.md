@@ -65,6 +65,8 @@ curl -X POST http://localhost:3000/bookings \
 }'
 ```
 
+Verify your local database for an existing parking_spot_id and valid token or alternatively you terminal logs.
+
 For additional example please refer to the swagger documentation.
 
 ## Assumptions made
